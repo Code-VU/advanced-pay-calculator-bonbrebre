@@ -5,10 +5,10 @@ def calculatePay():
     rate = float(input("Enter Rate:"))
     if hrs > 40:
         pay=(40*rate)+((hrs-40)*(1.5*rate))
-        print (pay)
+        print ("Pay:",pay)
     else:
         pay=hrs*rate
-        print(pay)
+        print("Pay:",pay)
     # end assignment
 
 ## if you want to test locally before you try to sync
